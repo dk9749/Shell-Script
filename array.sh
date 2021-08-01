@@ -1,8 +1,8 @@
 #!/bin/bash -x
 
-counter=0
-Fruits[((counter++))]="Apple"
-Fruits[((counter++))]="Banana"
-Fruits[((counter++))]="Orange"
+count=0
+fruits[((count++))]=" apple "
+fruits[((count++))]=" banana "
+fruits[((count++))]=" oraange "
 
-echo ${Fruits[@]}
+echo ${fruits[@]}
